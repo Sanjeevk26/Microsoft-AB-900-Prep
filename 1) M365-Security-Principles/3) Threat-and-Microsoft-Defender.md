@@ -165,14 +165,3 @@ Microsoft Defender XDR (formerly **Microsoft 365 Defender**) is a unified securi
 - Individual Defender products can be purchased separately  
 
 ---
-
-## Summary
-
-- Cyber threats include malware, phishing, ransomware, and more  
-- Strong protection requires **intelligence-driven security**  
-- Microsoft Defender XDR provides:
-  - Unified protection  
-  - Automated response  
-  - Cross-platform security  
-
-> Microsoft Defender XDR helps organizations detect, investigate, and respond to threats across their entire digital environment.
