@@ -172,15 +172,9 @@ RBAC assigns permissions using **roles**.
 
 ---
 
-## Key Takeaways
-
 - **Authentication** = Proving identity  
 - **Authorization** = Defining access permissions  
 - **RBAC** = Controls access via roles  
 - **MFA & Passwordless** = Strongest security approaches  
-
----
-
-## One-Line Summary (Exam Ready)
 
 > **Authentication = Who you are | Authorization = What you can do**
