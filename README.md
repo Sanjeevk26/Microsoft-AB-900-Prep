@@ -120,11 +120,4 @@ Focus is on ensuring AI is used securely and responsibly within organizations.
 
 ---
 
-## How to Use This Repository
-
-- Study notes topic by topic  
-- Use for revision before the exam  
-- Combine with Microsoft Learn modules and hands-on exploration  
-
----
 
