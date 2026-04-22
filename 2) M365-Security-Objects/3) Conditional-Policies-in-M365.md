@@ -180,17 +180,8 @@ A Conditional Access policy can be:
 - Apply least privilege principles  
 - Use MFA for high-risk access  
 - Combine multiple signals (user, device, location)  
-- Regularly review and update policies  
-
----
-
-## Summary
-
-- Conditional Access controls access based on real-time signals  
-- It enhances security beyond simple authentication  
-- Policies can grant, block, or limit access  
-- Risk-based policies require higher licensing (P2)  
-
+- Regularly review and update policies
+  
 ---
 
 ## One-Line Summary
