@@ -175,15 +175,6 @@ Based on detected risk, organizations can:
 
 ---
 
-## Summary
-
-- Microsoft Entra identifies risky sign-ins using global intelligence  
-- Identity Protection provides detailed risk reports  
-- Conditional Access and MFA help mitigate risks  
-- Advanced risk detection requires Entra ID P2  
-
----
-
 ## One-Line Summary
 
 > Microsoft Entra uses risk signals and security tools like Conditional Access and MFA to detect and respond to suspicious sign-in activity.
