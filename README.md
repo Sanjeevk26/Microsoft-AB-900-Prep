@@ -111,13 +111,3 @@ Focus is on ensuring AI is used securely and responsibly within organizations.
 
 ---
 
-## Exam Strategy
-
-- Focus on understanding what each service does and why it is used  
-- Expect broad coverage with limited technical depth  
-- Be clear on differences between similar concepts (e.g., authentication vs authorization)  
-- Understand business scenarios rather than configurations  
-
----
-
-
