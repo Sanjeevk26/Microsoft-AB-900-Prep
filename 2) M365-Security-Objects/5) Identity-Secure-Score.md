@@ -137,15 +137,3 @@ You can mark recommendations as:
 - Avoid unnecessary configurations just to increase score  
 
 ---
-
-## Summary
-
-- Identity Secure Score measures alignment with Microsoft security best practices  
-- It is updated daily and provides actionable recommendations  
-- Organizations should use it as a **guidance tool**, not a strict target  
-
----
-
-## One-Line Summary
-
-> Identity Secure Score indicates how closely your identity security aligns with Microsoft’s recommended best practices.
