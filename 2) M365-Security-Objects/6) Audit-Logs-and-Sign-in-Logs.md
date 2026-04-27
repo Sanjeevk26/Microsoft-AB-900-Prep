@@ -132,15 +132,3 @@ You can customize logs by:
 - Export logs for deeper analysis when needed  
 
 ---
-
-## Summary
-
-- Sign-in logs track authentication activity  
-- Audit logs track configuration and administrative changes  
-- Both are essential for monitoring, security, and troubleshooting  
-
----
-
-## One-Line Summary
-
-> Use sign-in logs for tracking access activity and audit logs for monitoring administrative and configuration changes in Microsoft Entra.
