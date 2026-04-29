@@ -1,134 +1,155 @@
-# Audit Logs and Sign-In Logs in Microsoft Entra
+# App Registrations and Enterprise Applications in Microsoft Entra
 
 ## Overview
 
-Microsoft Entra provides tools to review **user activity** and **administrative actions** through logs. These logs help monitor security, investigate issues, and maintain compliance.
+Microsoft Entra provides two key concepts for managing application access and identity:
 
-The primary tools are:
-- Sign-in Logs  
-- Audit Logs  
+- App Registrations  
+- Enterprise Applications  
 
-Both are available in the Microsoft Entra Admin Center.
+These are used to enable applications to authenticate and securely access resources.
 
 ---
 
-## Where to Access
+## App Registrations
+
+### What are App Registrations?
+
+App registrations are used to **define an application** and establish trust between the application and Microsoft Entra ID.
+
+> The application trusts Microsoft Entra ID for authentication.
+
+---
+
+### Where to Access
 
 - Microsoft Entra Admin Center  
-  - Entra ID → Monitoring and Health  
+  - Entra ID → App Registrations  
+
+- Azure Portal  
+  - Search for "App Registrations"  
 
 ---
 
-## Sign-In Logs
+### Creating an App Registration
 
-Sign-in logs track authentication activity for:
+When creating a new app registration, you configure:
 
-- Users  
-- Service principals  
-- Managed identities  
+- **Application Name**  
+- **Supported Account Types**:
+  - Single tenant (your organization only)  
+  - Multi-tenant (any organization)  
+  - Multi-tenant + personal Microsoft accounts  
+  - Personal Microsoft accounts only  
 
----
-
-### Key Information Available
-
-- **Date and Time**
-  - Format: `YYYY-MM-DDTHH:MM:SSZ`  
-  - "Z" indicates UTC (Zulu / GMT time)  
-
-- **Request ID**
-- **User Principal Name (UPN)**
-- **Application used**
-- **Sign-in status** (Success / Failure)
-- **IP address and location**
-- **Resource accessed**
-- **Conditional Access status**
+- **Redirect URI (Optional)**  
+  - URL where authentication responses are sent  
+  - Used in web and client applications  
 
 ---
 
-### Use Cases
+### Key Configuration Options
 
-- Identify:
-  - Successful vs failed sign-ins  
-  - Application usage trends  
-  - Suspicious login attempts  
-- Answer questions such as:
-  - How many users accessed a specific application?  
-  - How many failed login attempts occurred?  
-  - Which services or applications were accessed?  
+#### Certificates and Secrets
+- Used for authentication  
+- Includes:
+  - Client secrets (password-like credentials)  
+  - Certificates  
 
 ---
 
-## Audit Logs
-
-Audit logs track **configuration changes** and administrative activities.
-
----
-
-### Key Information Available
-
-- **Date and Time**
-- **Service**
-- **Category**
-- **Activity performed**
-- **Status and reason**
+#### API Permissions
+- Defines what resources the app can access  
+- Example:
+  - Microsoft Graph  
+  - Microsoft 365 services  
 
 ---
 
-### Use Cases
+## Enterprise Applications
 
-- Track changes such as:
-  - User creation or deletion  
-  - Password changes  
-  - Device updates  
-  - Group modifications  
-  - Role or permission updates  
-  - Application or service principal changes  
+### What are Enterprise Applications?
 
-- Answer questions such as:
-  - Who changed user or group settings?  
-  - What licenses were assigned or modified?  
-  - Were group owners changed?  
+Enterprise applications represent the **actual instance of an application** within a Microsoft Entra tenant.
+
+- They are based on app registrations  
+- Created automatically when an app registration is created  
 
 ---
 
-## Exporting Logs
+### Key Concept
 
-Logs can be exported for further analysis:
-
-- CSV (Comma Separated Values)  
-- JSON format  
-
----
-
-## Filtering and Customization
-
-You can customize logs by:
-
-- Filtering by:
-  - Date range  
-  - User  
-  - Application  
-- Switching time format:
-  - UTC (default)  
-  - Local time  
-- Adjusting view based on requirements  
+| Concept | Meaning |
+|--------|--------|
+| App Registration | Defines the application |
+| Enterprise Application | Instance of the application in a tenant |
 
 ---
 
-## Benefits
+### Service Principal
 
-- Improves visibility into user and admin activity  
-- Helps detect suspicious behavior  
-- Supports troubleshooting and investigations  
-- Assists in compliance and auditing  
+- Enterprise applications are also known as **service principals**  
+- A service principal is:
+  - A security identity for an application  
+  - Used to authenticate and access resources  
+
+---
+
+## Managing Enterprise Applications
+
+### Where to Access
+
+- Microsoft Entra Admin Center  
+  - Entra ID → Enterprise Applications  
 
 ---
 
-## Best Practices
+### Key Capabilities
 
-- Regularly review sign-in and audit logs  
-- Monitor failed login attempts  
-- Investigate unusual access patterns  
-- Export logs for deeper analysis when needed  
+- Assign users and groups  
+- Configure Single Sign-On (SSO)  
+- Apply Conditional Access policies  
+- Manage permissions and access  
 
 ---
+
+### Importing Applications
+
+- Go to:
+  - Enterprise Applications → New Application  
+- Add applications from:
+  - Microsoft Entra Application Gallery  
+  - Custom integrations  
+
+---
+
+## Relationship Between App Registrations and Enterprise Apps
+
+- App Registration:
+  - Defines the application globally  
+- Enterprise Application:
+  - Represents the app within a specific tenant  
+  - Handles authentication and access control  
+
+---
+
+## Use Cases
+
+- Integrating custom applications with Microsoft Entra  
+- Enabling secure authentication for apps  
+- Managing application access across users and groups  
+- Applying security policies to applications  
+
+---
+
+## Summary
+
+- App registrations define how an application integrates with Microsoft Entra  
+- Enterprise applications are the tenant-specific instances of those apps  
+- Service principals enable secure authentication and access  
+
+---
+
+## One-Line Summary
+
+> App registrations define an application, while enterprise applications (service principals) represent and manage that application within a tenant.
