@@ -142,14 +142,6 @@ Enterprise applications represent the **actual instance of an application** with
 
 ---
 
-## Summary
-
-- App registrations define how an application integrates with Microsoft Entra  
-- Enterprise applications are the tenant-specific instances of those apps  
-- Service principals enable secure authentication and access  
-
----
-
 ## One-Line Summary
 
 > App registrations define an application, while enterprise applications (service principals) represent and manage that application within a tenant.
