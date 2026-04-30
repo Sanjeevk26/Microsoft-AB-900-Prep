@@ -100,14 +100,3 @@ This exam is concept-driven and focuses on understanding business value and use 
 Focus is on ensuring AI is used securely and responsibly within organizations.
 
 ---
-
-## Key Concepts for the Exam
-
-- Copilot respects user permissions through Microsoft Graph  
-- Identity is a central part of security  
-- Zero Trust principles apply across all services  
-- Access must be controlled using least privilege and RBAC  
-- Security and compliance are integral to AI adoption  
-
----
-
