@@ -129,11 +129,3 @@ You can mark recommendations as:
 
 ---
 
-## Best Practices
-
-- Focus on **high-priority recommendations first**  
-- Implement changes based on **business needs**  
-- Regularly review score and updates  
-- Avoid unnecessary configurations just to increase score  
-
----
