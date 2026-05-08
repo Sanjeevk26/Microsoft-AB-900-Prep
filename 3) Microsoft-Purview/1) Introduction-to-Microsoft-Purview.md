@@ -248,15 +248,6 @@ Purview also provides:
 
 ---
 
-## Summary
-
-Microsoft Purview is a comprehensive suite for data governance, protection, compliance, and risk management.
-
-Microsoft Purview Information Protection specifically helps organizations:
-- Discover sensitive data  
-- Protect information using labels and encryption  
-- Prevent data loss using integrated security controls  
-
 ---
 
 ## One-Line Summary
