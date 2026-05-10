@@ -239,17 +239,6 @@ Purview also provides:
 
 ---
 
-## Key Benefits
-
-- Centralized data governance  
-- Improved compliance management  
-- Better visibility into sensitive information  
-- Stronger protection against data leakage  
-
----
-
----
-
 ## One-Line Summary
 
 > Microsoft Purview helps organizations govern, protect, and manage data using classification, labeling, encryption, and compliance solutions.
