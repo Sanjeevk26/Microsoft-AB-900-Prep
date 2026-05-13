@@ -255,21 +255,6 @@ Published labels become available in:
 
 ---
 
-# Summary
-
-Sensitivity labels in Microsoft Purview help organizations classify and secure sensitive information across Microsoft 365 services.
-
-They support:
-- Encryption  
-- Access control  
-- Automatic classification  
-- Secure sharing  
-- Compliance and governance  
-
-Protection can extend across documents, emails, Teams, SharePoint, Power BI, Copilot, and other connected services.
-
----
-
 ## One-Line Summary
 
 > Sensitivity labels classify and protect sensitive content across Microsoft 365 using encryption, access control, and compliance policies.
