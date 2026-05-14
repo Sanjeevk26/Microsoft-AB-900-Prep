@@ -261,14 +261,6 @@ SITs are covered separately within Microsoft Purview.
 
 ---
 
-# Summary
-
-Microsoft Purview supports multiple approaches to classification, including manual labeling, automated pattern matching, and machine learning-based trainable classifiers.
-
-These tools help organizations identify and protect sensitive information across Microsoft 365 services.
-
----
-
 ## One-Line Summary
 
 > Microsoft Purview classifies data using manual labeling, automated pattern matching, and AI-powered trainable classifiers.
