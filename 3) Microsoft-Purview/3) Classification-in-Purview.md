@@ -240,15 +240,6 @@ SITs are covered separately within Microsoft Purview.
 
 ---
 
-# Benefits of Classification
-
-- Improves data governance  
-- Automates protection and compliance  
-- Identifies sensitive content at scale  
-- Supports retention and labeling strategies  
-
----
-
 # Key Concepts
 
 | Method | Description |
