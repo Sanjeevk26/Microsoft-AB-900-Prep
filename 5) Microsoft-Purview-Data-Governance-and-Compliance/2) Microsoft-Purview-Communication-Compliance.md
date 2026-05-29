@@ -213,18 +213,6 @@ Communication Compliance provides reports such as:
 
 ---
 
-# Summary
-
-Microsoft Purview Communication Compliance helps organizations monitor communications across Microsoft 365 and connected platforms for inappropriate content, sensitive information exposure, regulatory violations, and risky AI interactions.
-
-It provides:
-- Policy-based monitoring  
-- Alert investigation workflows  
-- Reporting and analytics  
-- Integration with Microsoft Purview and eDiscovery  
-
----
-
 ## One-Line Summary
 
 > Microsoft Purview Communication Compliance helps organizations detect, investigate, and manage risky or inappropriate communications across Microsoft 365 and AI-powered platforms.
