@@ -212,7 +212,3 @@ Communication Compliance provides reports such as:
 | Copilot Monitoring | Detect risky AI interactions |
 
 ---
-
-## One-Line Summary
-
-> Microsoft Purview Communication Compliance helps organizations detect, investigate, and manage risky or inappropriate communications across Microsoft 365 and AI-powered platforms.
